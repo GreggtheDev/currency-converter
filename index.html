@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <title>Currency Converter</title>
+    <!-- Title of the web page -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to the external CSS file -->
+  </head>
+  <body>
+    <h1>Currency Converter</h1>
+    <!-- Main heading of the page -->
+    <div class="converter">
+      <!-- Label and dropdown for selecting the base currency -->
+      <label for="base-currency">Base Currency:</label>
+      <select id="base-currency"></select>
+      <!-- Input field for entering the amount to be converted -->
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" value="1" min="0" />
+      <!-- Label and dropdown for selecting the target currency -->
+      <label for="target-currency">Target Currency:</label>
+      <select id="target-currency"></select>
+      <!-- Display the converted amount -->
+      <p>Converted Amount: <span id="converted-amount"></span></p>
+      <!-- Button to view historical exchange rates -->
+      <button id="historical-rates">View Historical Rates</button>
+      <!-- Container for displaying historical exchange rates -->
+      <div id="historical-rates-container"></div>
+      <!-- Button to save the selected currency pair as a favorite -->
+      <button id="save-favorite">Save Favorite</button>
+      <!-- Container for displaying favorite currency pairs -->
+      <div id="favorite-currency-pairs"></div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Link to the external JavaScript file -->
+  </body>
+</html>

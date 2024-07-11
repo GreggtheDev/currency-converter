@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif; /* Font style for the body */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0; /* Light grey background color */
+}
+
+h1 {
+  text-align: center; /* Center align the heading text */
+}
+
+.converter {
+  background-color: white; /* White background for the converter container */
+  padding: 30px;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Light shadow for the container */
+}
+
+.converter label,
+.converter select,
+.converter input {
+  display: block;
+  margin-bottom: 10px; /* Space below each element */
+}
+
+.converter button {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #3498db; /* Blue background color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 10px;
+}
+
+.converter button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+p {
+  margin-top: 20px; /* Space above the paragraph */
+}
+
+#historical-rates-container,
+#favorite-currency-pairs {
+  margin-top: 20px; /* Space above the containers */
+}
